@@ -5,3 +5,5 @@ numpy==1.26.4
 pymorphy2==0.9.1
 pymorphy2-dicts-ru==2.4.417127.4579844
 scikit-learn==1.4.0
+gspread==6.0.2
+oauth2client==4.1.3
