@@ -1,0 +1,7 @@
+aiogram==3.4.1
+sentence-transformers==2.5.1
+torch==2.2.0
+numpy==1.26.4
+pymorphy2==0.9.1
+pymorphy2-dicts-ru==2.4.417127.4579844
+scikit-learn==1.4.0
