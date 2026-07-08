@@ -2,10 +2,8 @@ import re
 from typing import Optional, Dict, List
 from datetime import datetime, timedelta
 
-import pymorphy2
-
-
-morph = pymorphy2.MorphAnalyzer()
+import pymorphy3
+morph = pymorphy3.MorphAnalyzer()
 
 ADJ = {'сладкий', 'нежный', 'знойный', 'чудесный', 'весенний', 'горячий', 'мягкий', 'страстный'}
 NOUNS = {'мелодия', 'бандитка', 'шалунья', 'крошка', 'кошечка', 'зайка', 'фея', 'луна', 'кармелька'}
